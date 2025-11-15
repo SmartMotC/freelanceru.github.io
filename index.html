@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREELANCE.ru - Найдите исполнителей или работу</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    FREELANCE<span>.ru</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="auth-buttons">
+                    <button class="btn btn-login" id="loginBtn">
+                        <i class="fas fa-sign-in-alt"></i> Войти
+                    </button>
+                    <button class="btn btn-register" id="registerBtn">
+                        <i class="fas fa-user-plus"></i> Регистрация
+                    </button>
+                </div>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="#"><i class="fas fa-tasks"></i> Заказы</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Фрилансеры</a></li>
+                    <li><a href="#"><i class="fas fa-trophy"></i> Конкурсы</a></li>
+                    <li><a href="#"><i class="fas fa-handshake"></i> Партнерская программа</a></li>
+                    <li><a href="#"><i class="fas fa-blog"></i> Блог</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Помощь</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Найдите исполнителя для любой задачи</h1>
+                <p>Более 1 500 000 фрилансеров готовы выполнить вашу работу быстро и качественно. Начните сотрудничество уже сегодня!</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Например: разработка сайта, дизайн логотипа, SEO продвижение">
+                    <button><i class="fas fa-search"></i> Найти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основной контент -->
+    <main class="container">
+        <!-- Категории -->
+        <section class="categories">
+            <h2 class="section-title">Популярные категории</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Разработка сайтов</h3>
+                    <p>Создание и поддержка веб-сайтов любой сложности</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобильные приложения</h3>
+                    <p>Разработка под iOS и Android, кроссплатформенные решения</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Дизайн</h3>
+                    <p>UI/UX, графика, иллюстрации, брендинг</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Тексты и переводы</h3>
+                    <p>Копирайтинг, рерайтинг, SEO, переводы</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Маркетинг</h3>
+                    <p>SMM, контекстная реклама, аналитика</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Видеомонтаж</h3>
+                    <p>Обработка и создание видео, анимация</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция с изображениями -->
+        <section class="img-section">
+            <h2 class="section-title">Успешные проекты</h2>
+            <div class="img-container">
+                <div class="img-card img1">
+                    <div class="img-placeholder">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="img-content">
+                        <h3>Стартап в сфере EdTech</h3>
+                        <p>Разработка образовательной платформы с нуля до 10,000 пользователей</p>
+                    </div>
+                </div>
+                <div class="img-card img2">
+                    <div class="img-placeholder">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="img-content">
+                        <h3>Интернет-магазин премиум класса</h3>
+                        <p>Создание полнофункционального магазина с системой рекомендаций</p>
+                    </div>
+                </div>
+                <div class="img-card img3">
+                    <div class="img-placeholder">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="img-content">
+                        <h3>Мобильное приложение для фитнеса</h3>
+                        <p>Разработка приложения с AI-тренером и системой отслеживания прогресса</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Популярные задания -->
+        <section class="tasks">
+            <div class="tasks-header">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 0;">Популярные задания</h2>
+                <a href="#" class="view-all">
+                    Смотреть все <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="tasks-grid">
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-title">Разработка лендинга</div>
+                        <div class="task-price">25 000 ₽</div>
+                    </div>
+                    <div class="task-meta">
+                        <span><i class="far fa-clock"></i> 3 дня назад</span>
+                        <span><i class="far fa-eye"></i> 124 просмотра</span>
+                    </div>
+                    <div class="task-description">
+                        Нужно создать лендинг для строительной компании. Требуется адаптивная верстка, интеграция с CRM, SEO-оптимизация.
+                    </div>
+                    <div class="task-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Адаптивная верстка</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-title">Дизайн мобильного приложения</div>
+                        <div class="task-price">45 000 ₽</div>
+                    </div>
+                    <div class="task-meta">
+                        <span><i class="far fa-clock"></i> 1 день назад</span>
+                        <span><i class="far fa-eye"></i> 87 просмотров</span>
+                    </div>
+                    <div class="task-description">
+                        Разработать UI/UX дизайн для приложения доставки еды. Нужны все экраны и адаптация под iOS/Android, руководство по стилю.
+                    </div>
+                    <div class="task-tags">
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Мобильный дизайн</span>
+                    </div>
+                </div>
+                <div class="task-card">
+                    <div class="task-header">
+                        <div class="task-title">SEO-продвижение сайта</div>
+                        <div class="task-price">60 000 ₽</div>
+                    </div>
+                    <div class="task-meta">
+                        <span><i class="far fa-clock"></i> 5 дней назад</span>
+                        <span><i class="far fa-eye"></i> 203 просмотра</span>
+                    </div>
+                    <div class="task-description">
+                        Требуется комплексное SEO-продвижение интернет-магазина. Аудит, техническая оптимизация, контент, ссылочное продвижение.
+                    </div>
+                    <div class="task-tags">
+                        <span class="tag">SEO</span>
+                        <span class="tag">Аналитика</span>
+                        <span class="tag">Контент</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>FREELANCE.ru</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-info-circle"></i> О компании</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> Контакты</a></li>
+                        <li><a href="#"><i class="fas fa-handshake"></i> Партнерская программа</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Вакансии</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Заказчикам</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-play-circle"></i> Как это работает</a></li>
+                        <li><a href="#"><i class="fas fa-plus-circle"></i> Создать задание</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i> Каталог фрилансеров</a></li>
+                        <li><a href="#"><i class="fas fa-shield-alt"></i> Безопасная сделка</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Фрилансерам</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-search"></i> Найти работу</a></li>
+                        <li><a href="#"><i class="fas fa-rocket"></i> Как получать заказы</a></li>
+                        <li><a href="#"><i class="fas fa-images"></i> Портфолио</a></li>
+                        <li><a href="#"><i class="fas fa-user-circle"></i> Профиль фрилансера</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Помощь</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Правила сайта</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle"></i> Частые вопросы</a></li>
+                        <li><a href="#"><i class="fas fa-blog"></i> Блог</a></li>
+                        <li><a href="#"><i class="fas fa-headset"></i> Поддержка</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 FREELANCE.ru. Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно регистрации -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Регистрация</h2>
+                <button class="close-modal" id="closeRegisterModal">&times;</button>
+            </div>
+            
+            <!-- Реферальный баннер -->
+            <div class="referral-banner">
+                <div class="referral-banner-content">
+                    <h3><i class="fas fa-gift"></i> Вы перешли по реферальной ссылке</h3>
+                    <p>Зарегистрируйтесь и ваш приглашающий получит вознаграждение!</p>
+                    <div class="reward-badge">
+                        <i class="fas fa-coins"></i> Вознаграждение: 249 ₽
+                    </div>
+                </div>
+            </div>
+            
+            <div class="alert alert-success" id="successAlert">Регистрация прошла успешно!</div>
+            <div class="alert alert-error" id="errorAlert">Пожалуйста, заполните все поля корректно.</div>
+            
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" minlength="6" required>
+                    <div class="password-strength">
+                        <div class="password-strength-bar" id="passwordStrengthBar"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="userType">Я регистрируюсь как</label>
+                    <select id="userType" name="userType" required>
+                        <option value="">Выберите тип аккаунта</option>
+                        <option value="freelancer">Фрилансер</option>
+                        <option value="client">Заказчик</option>
+                    </select>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" name="agree" required> Согласен с правилами сайта
+                    </label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-user-plus"></i> Зарегистрироваться
+                </button>
+            </form>
+            <div class="form-footer">
+                Уже есть аккаунт? <a href="#" id="switchToLogin">Войти</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно входа -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Вход</h2>
+                <button class="close-modal" id="closeLoginModal">&times;</button>
+            </div>
+            <div class="alert alert-error" id="loginErrorAlert">Неверный email или пароль.</div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Электронная почта</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Пароль</label>
+                    <input type="password" id="loginPassword" name="password" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" name="remember"> Запомнить меня
+                    </label>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-sign-in-alt"></i> Войти
+                </button>
+            </form>
+            <div class="form-footer">
+                Нет аккаунта? <a href="#" id="switchToRegister">Зарегистрироваться</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
